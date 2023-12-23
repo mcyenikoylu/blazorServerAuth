@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorServerAuthApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorServerAuthApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/mcyenikoylu/Documents/Projects/blazorServerAuth/BlazorServerAuthApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorServerAuthApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BlazorServerAuthApp.props",
+      "PackagePath": "build\\BlazorServerAuthApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlazorServerAuthApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorServerAuthApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BlazorServerAuthApp.props",
+      "PackagePath": "buildTransitive\\BlazorServerAuthApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
