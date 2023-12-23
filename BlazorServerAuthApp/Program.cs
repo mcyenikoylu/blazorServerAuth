@@ -1,12 +1,22 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorServerAuthApp.Data;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+using Microsoft.AspNetCore.Components.Authorization;
+using BlazorServerAuthApp;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddAuthenticationCore();//
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddScoped<ProtectedSessionStorage>();//
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationSateProvider>();//
+builder.Services.AddSingleton<UserAccountService>();//
+
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
