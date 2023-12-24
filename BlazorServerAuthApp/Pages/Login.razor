@@ -3,7 +3,7 @@
 @inject IJSRuntime js
 @inject AuthenticationStateProvider authStateProvider
 @inject NavigationManager navManager
-
+@inject UserAccountService appService;
 
 <div class="row">
     <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
@@ -32,10 +32,11 @@
         public string? Password { get; set; }
     }
     private Model model = new Model();
+
     private async Task Authenticate()
     {
         var userAccount = userAccountService.GetByUserName(model.UserName);
-        if (userAccount == null || userAccount.Password != model.Password)
+        if (userAccount == null || userAccount.LoginPassword != model.Password)
         {
             await js.InvokeVoidAsync("alert", "Invalid User Name or Password");
             return;
@@ -43,7 +44,7 @@
         var customAuthStateProvider = (CustomAuthenticationSateProvider)authStateProvider;
         await customAuthStateProvider.UpdateAuthenticationState(new UserSession
             {
-                UserName = userAccount.UserName,
+                UserName = userAccount.EmployeeEmail,
                 Role = userAccount.Role
             });
         navManager.NavigateTo("/", true);
